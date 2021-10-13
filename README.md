@@ -20,7 +20,7 @@
 </br></br>将直接光照和间接光照相加等于该位置最终光照数据。
 ## 结果 ##
 下图展示了原P7中实现的表面散射（左）和现加入体积散射（右）的效果对比。</br>
-![](http://github.com/seeeagull/Ray-Tracing/blob/main/images/contrast.PNG)
+![avatar](https://github.com/seeeagull/Ray-Tracing/blob/main/images/contrast.PNG)</br>
 
 ## 参考资料 ##
 Wojciech Jarosz. Efficient Monte Carlo Methods for Light Transport in Scattering Media. Ph.D. dissertation, UC San Diego, September 2008.</br>
