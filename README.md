@@ -17,9 +17,16 @@
 - 根据 $$ L(y, \theta) = \int_{\Omega}\frac{\sigma}{\kappa}f(y,\theta',\theta)L(y,\theta')d\omega' $$ 原理，利用返回值计算得到间接光照。
 
 
-</br></br>将直接光照和间接光照相加等于该位置最终光照数据。
+</br></br>将直接光照和间接光照相加等于该位置最终光照数据。</br>
+## 运行指令 ##
+
+    $ mkdir build
+    $ cd ./build
+    $ cmake ..
+    $ make
+
 ## 结果 ##
-下图展示了原P7中实现的表面散射（左）和现加入体积散射（右）的效果对比。</br>
+下图展示了原P7中实现的表面散射（左）和现加入体积散射（右）的效果对比。</br></br>
 ![avatar](https://github.com/seeeagull/Ray-Tracing/blob/main/images/contrast.PNG)</br>
 
 ## 参考资料 ##
